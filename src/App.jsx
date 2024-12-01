@@ -1,30 +1,14 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
-import { useNavigate } from "react-router-dom"
-import LoginPage from "./components/login_page/LoginPage"
-import Registration from "./components/Registration/Registration";
-
-function AppFunction(){
-const navigate = useNavigate();
-
-  return (
-    <Routes>
-      <Route path="/" element={<LoginPage />} />
-      <Route path="/registration" element={<Registration/>}/>
-    </Routes>
-  )
-}
-
-
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import ErrorServer from "./components/ErrorServer";
 
 
 const App = () => {
-
-return (
-  <BrowserRouter>
-    <AppFunction/>
-  </BrowserRouter>
-)
-
+  return ( <>
+          <Navbar/>
+          <ErrorServer/>
+          <Outlet/>
+  </> );
 }
-
-export default App
+ 
+export default App;

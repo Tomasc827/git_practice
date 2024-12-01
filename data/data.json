@@ -1,0 +1,52 @@
+{
+  "pets": [
+    {
+      "id": "a74a",
+      "name": "fsdfs",
+      "species": "dog",
+      "age": "3",
+      "size": "medium",
+      "health": "good",
+      "description": ""
+    },
+    {
+      "id": "3d1f",
+      "name": "snaw",
+      "species": "dog",
+      "age": "3",
+      "size": "small",
+      "health": "good",
+      "description": ""
+    },
+    {
+      "name": "Big",
+      "species": "cat",
+      "age": "5",
+      "size": "large",
+      "health": "good",
+      "description": "Big and clown",
+      "vacs": "all",
+      "id": "fe44"
+    },
+    {
+      "name": "mufasa fasagan m'dick",
+      "species": "cat",
+      "age": "2",
+      "size": "small",
+      "health": "good",
+      "description": "Camboban child soldier",
+      "vacs": "initial",
+      "id": "04cb"
+    },
+    {
+      "id": "9264",
+      "name": "brown",
+      "species": "other",
+      "age": "6",
+      "size": "large",
+      "health": "bad",
+      "description": "Big and brown turtle, leonardo",
+      "otherSpecies": "Turtle"
+    }
+  ]
+}

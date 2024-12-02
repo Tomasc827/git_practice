@@ -55,7 +55,7 @@ const EditPage = () => {
 
   return (
     <>
-      <div className="super-flex">
+      <div className="super-flex pt-28">
         <h3 className="pb-10 text-lg font-semibold">
           You can edit your book below.
         </h3>

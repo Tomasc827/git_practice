@@ -37,7 +37,7 @@ const Homepage = () => {
     <>
       <div className="super-flex">
         <h1 className="text-3xl text-sky-400">Welcome to Books'r'us</h1>
-        <p className="text-sky-600 text-xl pt-5 pb-10">
+        <p className="text-sky-600 text-xl  pb-10 pt-24">
           Take a look at the selection of our books, we are sure to have
           something for your taste!
         </p>

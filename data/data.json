@@ -1,52 +1,112 @@
 {
-  "pets": [
+  "books": [
     {
-      "id": "a74a",
-      "name": "fsdfs",
-      "species": "dog",
-      "age": "3",
-      "size": "medium",
-      "health": "good",
-      "description": ""
+      "id": "0dec",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "fiction",
+      "price": 10.99,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+      "reserved": false
     },
     {
-      "id": "3d1f",
-      "name": "snaw",
-      "species": "dog",
-      "age": "3",
-      "size": "small",
-      "health": "good",
-      "description": ""
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "category": "science",
+      "price": 15.49,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg",
+      "reserved": false,
+      "id": "da2e"
     },
     {
-      "name": "Big",
-      "species": "cat",
-      "age": "5",
-      "size": "large",
-      "health": "good",
-      "description": "Big and clown",
-      "vacs": "all",
-      "id": "fe44"
+      "title": "The Great Gatsby",
+      "author": "F  Scott Fitzgerald",
+      "category": "fiction",
+      "price": 12.99,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
+      "reserved": false,
+      "id": "9c13"
     },
     {
-      "name": "mufasa fasagan m'dick",
-      "species": "cat",
-      "age": "2",
-      "size": "small",
-      "health": "good",
-      "description": "Camboban child soldier",
-      "vacs": "initial",
-      "id": "04cb"
+      "title": "Educated",
+      "author": "Tara Westover",
+      "category": "biography",
+      "price": 14.99,
+      "cover": "https://prelovedlibrary.co.uk/cdn/shop/files/Screenshot-20240625-075828.png?v=1719298985",
+      "id": "e733",
+      "reserved": false
     },
     {
-      "id": "9264",
-      "name": "brown",
-      "species": "other",
-      "age": "6",
-      "size": "large",
-      "health": "bad",
-      "description": "Big and brown turtle, leonardo",
-      "otherSpecies": "Turtle"
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "category": "science fiction",
+      "price": 18.99,
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
+      "id": "1997",
+      "reserved": false
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "dystopian",
+      "price": 9.99,
+      "cover": "https://thebannedbook.shop/cdn/shop/files/61NAx5pd6XL.jpg?v=1715295618",
+      "id": "2143",
+      "reserved": false
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "category": "romance",
+      "price": 11.99,
+      "cover": "https://almabooks.com/wp-content/uploads/2016/10/9781847493699.jpg",
+      "id": "bda0",
+      "reserved": false
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "category": "fiction",
+      "price": 10.49,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/640px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg",
+      "id": "554f",
+      "reserved": false
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "category": "fantasy",
+      "price": 13.95,
+      "cover": "https://m.media-amazon.com/images/I/81TZj+3ecWL._AC_UF1000,1000_QL80_.jpg",
+      "id": "9535",
+      "reserved": false
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "adventure",
+      "price": 16.99,
+      "cover": "https://harpercollins.co.uk/cdn/shop/files/x9780007487943.jpg?v=1726041924",
+      "id": "0f30",
+      "reserved": false
+    },
+    {
+      "title": "boring something1",
+      "author": "boring mcGee",
+      "category": "science fiction",
+      "price": "25.25",
+      "cover": "https://pngimg.com/uploads/book/book_PNG2111.png",
+      "id": "5c19",
+      "reserved": false
+    },
+    {
+      "id": "ea36",
+      "title": "Biig Boook",
+      "author": "Biiiger author",
+      "category": "biography",
+      "price": "99.99",
+      "cover": "https://pngimg.com/uploads/book/book_PNG2111.png",
+      "reserved": false
     }
   ]
 }

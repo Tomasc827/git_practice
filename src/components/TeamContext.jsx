@@ -1,15 +1,11 @@
-import { createContext, useState, useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import { createContext, useContext } from "react";
 const DataContext = createContext();
 
 export const Providers = ({ children }) => {
-  const [books, setBooks] = useState([]);
-  const [error, setError] = useState("");
-  const navigate = useNavigate();
-  const [update, setUpdate] = useState(0);
+
   return (
     <DataContext.Provider
-      value={{ navigate, error, setError, books, setBooks, update, setUpdate }}
+      value={{ }}
     >
       {children}
     </DataContext.Provider>

@@ -1,22 +1,24 @@
-const Footer = () => {
-    return ( 
-        <>
-        <footer className="">
-            <div className="super-flex bg-black text-white ">
-                <p className="font-semibold text-4xl py-10">Our Location</p>
-                <div className="leading-8">
-                <p>Jl. Bangkringran No 19, RT.11/RW2, Kota Surabaya, 60124</p>
-                <p><span className="font-bold">Customer Service </span>+6282-2876-6862</p>
-                <p className="pb-5"><span className="font-bold">We are open from </span> Sun - Mon 10AM - 22PM </p>
-                </div>
-                <hr className="" />
-                <div>
-                    fdg
-                </div>
-            </div>
-        </footer>
-        </>
-     );
-}
- 
-export default Footer;
+import React, { useState } from 'react';
+
+const RandomNumberGenerator = () => {
+  const [randomNumber, setRandomNumber] = useState(null);
+
+  const generateRandomNumber = () => {
+    const number = Math.floor(Math.random() * 100) + 1; // Generates a number between 1 and 100
+    setRandomNumber(number);
+  };
+
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Random Number Generator</h1>
+      <button onClick={generateRandomNumber} style={{ padding: '10px', fontSize: '16px' }}>
+        Generate Random Number
+      </button>
+      {randomNumber !== null && (
+        <p style={{ marginTop: '20px', fontSize: '24px' }}>Random Number: {randomNumber}</p>
+      )}
+    </div>
+  );
+};
+
+export default RandomNumberGenerator;

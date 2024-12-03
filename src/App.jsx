@@ -3,7 +3,7 @@ import ErrorServer from "./components/ErrorServer";
 import Body from "./components/Body";
 
 import Header from "./components/Header";
-
+import RandomNumberGenerator from "./components/Footer";
 
 import Footer from "./components/Footer";
 
@@ -14,6 +14,7 @@ const App = () => {
     <Header></Header>
       <ErrorServer />
       <Outlet />
+      <RandomNumberGenerator/>
       <Body/>
       <Footer/>
 

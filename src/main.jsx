@@ -13,7 +13,6 @@ createRoot(document.getElementById("root")).render(
       <Providers>
         <Routes>
           <Route path="/" element={<App />}>
-           
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

@@ -1,5 +1,6 @@
 
 import formsPlugin from '@tailwindcss/forms'
+import daisyui from 'daisyui'
 
 
 
@@ -12,6 +13,6 @@ export default {
   theme: {
     extend: {
   },
-  plugins: [formsPlugin],
+  plugins: [formsPlugin,daisyui],
 }}
 

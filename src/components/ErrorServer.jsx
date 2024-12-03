@@ -1,7 +1,8 @@
-import { useBook } from "./BookContext";
+import { useTeamContext } from "./TeamContext";
+
 
 const ErrorServer = () => {
-  const { error } = useBook();
+  const { error } = useTeamContext();
 
   return (
     <div className="relative">

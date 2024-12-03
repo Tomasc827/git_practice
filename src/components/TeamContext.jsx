@@ -1,19 +1,19 @@
 import { createContext, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-const BookDataContext = createContext();
+const DataContext = createContext();
 
-export const BookProviders = ({ children }) => {
+export const Providers = ({ children }) => {
   const [books, setBooks] = useState([]);
   const [error, setError] = useState("");
   const navigate = useNavigate();
   const [update, setUpdate] = useState(0);
   return (
-    <BookDataContext.Provider
+    <DataContext.Provider
       value={{ navigate, error, setError, books, setBooks, update, setUpdate }}
     >
       {children}
-    </BookDataContext.Provider>
+    </DataContext.Provider>
   );
 };
 
-export const useBook = () => useContext(BookDataContext);
+export const useTeamContext = () => useContext(DataContext);

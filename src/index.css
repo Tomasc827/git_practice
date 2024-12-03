@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-::placeholder {
-  text-align: center;
-  letter-spacing: 0.02rem;
-}
-
 @layer components {
   .super-flex {
     @apply flex flex-col justify-center items-center text-center;

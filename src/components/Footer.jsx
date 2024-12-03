@@ -11,8 +11,9 @@ const Footer = () => {
                 </div>
                 <hr className="" />
                 <div>
-                    fdg
+                    fdgAAAAAAAAA
                 </div>
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, repellendus provident, minima iusto in dolorem cupiditate odit placeat eligendi exercitationem quas repudiandae illo recusandae modi doloremque ducimus dolores ad porro.</div>
             </div>
         </footer>
         </>

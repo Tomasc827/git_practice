@@ -2,8 +2,8 @@ export default function Header() {
   return (
     <>
       <header>
-        <nav class=" py-3 px-4 flex items-center justify-between">
-          <a class="font-bold text-xl tracking-tight" href="#">
+        <nav className=" py-3 px-4 flex items-center justify-between">
+          <a className="font-bold text-xl tracking-tight" href="#">
             IMAJI Coffee.
           </a>
           <div class="flex items-center">
